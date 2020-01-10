@@ -1,0 +1,37 @@
+{
+  "name": "server",
+  "version": "0.0.1",
+  "description": "Awesome project developed with TypeORM.",
+  "devDependencies": {
+    "@types/bcryptjs": "^2.4.2",
+    "@types/cookie-parser": "^1.4.2",
+    "@types/express": "^4.17.2",
+    "@types/graphql": "^14.5.0",
+    "@types/jsonwebtoken": "^8.3.5",
+    "@types/mongodb": "^3.3.13",
+    "@types/node": "^8.0.29",
+    "@types/node-fetch": "^2.5.4",
+    "nodemon": "^2.0.2",
+    "ts-node": "3.3.0",
+    "typescript": "3.3.3333"
+  },
+  "dependencies": {
+    "apollo-datasource-mongodb": "^0.2.1",
+    "apollo-datasource-rest": "^0.6.10",
+    "apollo-server-express": "^2.9.14",
+    "bcryptjs": "^2.4.3",
+    "cookie-parser": "^1.4.4",
+    "express": "^4.17.1",
+    "graphql": "^14.5.8",
+    "isemail": "^3.2.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongodb": "^3.0.8",
+    "node-fetch": "^2.6.0",
+    "reflect-metadata": "^0.1.10",
+    "type-graphql": "^0.17.5",
+    "typeorm": "0.2.20"
+  },
+  "scripts": {
+    "start": "nodemon --exec ts-node src/index.ts"
+  }
+}
